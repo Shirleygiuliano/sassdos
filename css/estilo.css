@@ -1,0 +1,202 @@
+.estrenos {
+  color: white; }
+
+.noticias {
+  color: red; }
+
+.novedades {
+  color: black; }
+
+.recomendados {
+  color: green; }
+
+.text-center {
+  font-size: 20px;
+  text-align: right; }
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: right; }
+
+/* color para el fondo */
+body, .padre1 {
+  background-color: #212121; }
+
+.ancla {
+  text-decoration: solid;
+  font-size: medium;
+  text-transform: uppercase; }
+
+/* TITULO */
+.padre1, .navbar-expand-lg .bg-light {
+  background-color: linear-gradient(180deg, #a38d8d 6%, #212121 50%); }
+
+/* BOTONES DE MENU */
+.padre2, .row {
+  list-style: none; }
+
+.mb-3 {
+  height: 40px;
+  width: 540px; }
+
+.novedades, col {
+  background-color: #A32020;
+  border-radius: 4px;
+  height: 40px;
+  width: 20px; }
+
+.noticias, col, .recomendados, col, .estrenos, col, .nosotros, col {
+  background-color: #A32020;
+  border-radius: 4px; }
+
+/* PORTADA*/
+.fotito:hover, text-center, img-fluid {
+  border-radius: 20px;
+  filter: grayscale(70%); }
+
+.fotito:hover, text-center, img-fluid {
+  transition: all 0, 5s; }
+
+/* Tarjetas*/
+.tarjetas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.barbie, .buss, .stranger, .thor, .black, .marvel {
+  background: linear-gradient(#A32020, #212121);
+  height: 280px;
+  width: 265px;
+  border-radius: 20px; }
+
+/*segundas tarjetas*/
+h2 {
+  color: white; }
+
+/* caja de footer*/
+footer {
+  background-color: #3C2323; }
+
+/* subcripcion */
+.container-fluid, .bajo, .button {
+  color: #3C2323; }
+
+hr {
+  background-color: #737373;
+  border: #737373 solid;
+  height: 0px; }
+
+/* CONTACTOS*/
+.presenta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif; }
+
+h1 {
+  display: flex;
+  justify-content: center; }
+
+.caja1 {
+  background: #996b6b;
+  background: linear-gradient(180deg, #996b6b 44%, #212121 100%);
+  height: 200px;
+  width: 600px;
+  border-radius: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center; }
+
+.nombre {
+  background-color: #d8dbdd;
+  backface-visibility: initial;
+  height: 40px;
+  width: 200px;
+  border-radius: 8px;
+  justify-content: center; }
+
+.envi {
+  background-color: #DFB520;
+  backface-visibility: initial;
+  height: 40px;
+  width: 200px;
+  border-radius: 8px;
+  justify-content: center; }
+
+.preguntas {
+  background-color: #d8dbdd;
+  backface-visibility: initial;
+  height: 40px;
+  width: 250px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center; }
+
+iframe {
+  display: flex;
+  justify-content: center; }
+
+/* TARJETAS DE ESTRENOS*/
+.minio, .only, .anillo, .thorr, .lista, .strange {
+  background: linear-gradient(#A32020, #212121);
+  height: 280px;
+  width: 365px;
+  border-radius: 20px; }
+
+.superior {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+iframe {
+  width: 98%;
+  justify-content: center; }
+
+/* TARJETAS DE RECOMENDADOS*/
+.corea, .hbo, .estafa, .hbom, .suse, .cosso {
+  background: linear-gradient(#A32020, #212121);
+  height: 280px;
+  width: 365px;
+  border-radius: 20px; }
+
+.superior {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+/* TARJETAS DE NOTICIAS*/
+.spenc, .crista, .mue, .cmo, .xx, .our {
+  background: linear-gradient(#A32020, #212121);
+  height: 280px;
+  width: 365px;
+  border-radius: 20px; }
+
+.nave ul li {
+  list-style-type: none;
+  margin: 0 20px; }
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center; }
+  ul li a:hover {
+    text-decoration: none;
+    color: red; }
+
+main .tarjetas, img p {
+  display: flex;
+  justify-content: space-between 0, 0, 2, 8; }
+
+@keyframes cine {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 100%; } }
+
+.padre1 .row {
+  animation-name: cine;
+  animation-duration: 2s;
+  animation-iteration-count: initial; }

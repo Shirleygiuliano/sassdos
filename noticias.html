@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINE OJO - Noticias</title>
+    <!--link de boortstrap-->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!--CSS PROPIO-->
+    <link rel="stylesheet" href="css/estilo.css">
+    <!--foto del logo-->
+    <link rel="shortcut icon" href="./img/logo.png" type="img/png" />
+    <meta name="descripcion" content="¿Que hay de nuevo en el mundo del cine? enterate todo en Cine Ojo">
+</head>
+
+<body class="container-fluid">
+    <header class="padre1">
+        <nav class="navbar navbar-expand-lg bg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="imagenes/logo.png" alt="logo de cine"></a>
+                <button class="navbar-toggler btn btn-outline-danger" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon btn btn-outline-danger"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active ancla" aria-current="page" href="./index.html"
+                                style="color: #ffffff;">Novedades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active ancla" aria-current="page" href="./recomendados.html"
+                                style="color: #ffffff;">Recomendados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ancla" href="./noticias.html" style="color: #ffffff;">Noticias</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link ancla" href="./estrenos.html" style="color: #ffffff;"> Estrenos
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ancla" aria-current="page" href="nosotros.html"
+                                style="color: #ffffff;">Nosotros</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Algo para buscar"
+                            aria-label="Search">
+                            <button type="button" class="btn btn-outline-danger">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="superior img-fluid">
+            <img class="img-fluid" src="imagenes/netflix.png" alt="">
+            <img class="img-fluid" src="imagenes/argentina.png" alt="">
+        </div>
+
+        <h2 class="text-center mt-3"> Noticias</h2>
+        <div class="tarjetas img-fluid row">
+            <div class="barbie col-5 mt-5 ">
+                <img class="img-fluid" src="./imagenes/spencer.png" alt="">
+                <p class="text-center" style="color: #ffffff;">Spencer</p>
+                <p class="text-center" style="color: #ffffff;">Ya está en Prime Video
+                    lo mejor del 2021</p>
+            </div>
+            <div class="buss col-5 mt-5">
+                <img class="img-fluid" src="./imagenes//cristal.png" alt="">
+                <p class="text-center" style="color: #ffffff;">Las Niñas de Cristal</p>
+                <p class="text-center" style="color: #ffffff;">Critica de la nueva película española de Netflix</p>
+            </div>
+            <div class="stranger col-5 mt-5">
+                <img class="img-fluid" src="./imagenes/mueren.png" alt="">
+                <p class="text-center" style="color: #ffffff;">Los muertos no mueren</p>
+                <p class="text-center" style="color: #ffffff;"> Critica a la nueva
+                    tendencia de Netflix</p>
+            </div>
+        </div>
+
+        <div class="tarjetas 2 img-fluid row mt-5">
+            <div class="thor col-5 mt-5">
+                <img class="img-fluid" src="./imagenes/cmon.png" alt="">
+                <p class="text-center" style="color: #ffffff;"> C’mon C’mon</p>
+                <p class="text-center" style="color: #ffffff;">Película con Joaquin Phoenix que todos deberían ver</p>
+            </div>
+            <div class="black col-5 mt-5">
+                <img class="img-fluid" src="./imagenes/x.png" alt="">
+                <p class="text-center" style="color: #ffffff;">‘X’ (2022)</p>
+                <p class="text-center" style="color: #ffffff;">Un reciente estreno de horror-slasher</p>
+            </div>
+            <div class="marvel col-5 mt-5">
+                <img class="img-fluid" src="./imagenes/pelii.png" alt="">
+                <p class="text-center" style="color: #ffffff;">Our Flag Means Death</p>
+                <p class="text-center" style="color: #ffffff;"> Una serie de diez episodios cortos en HBO </p>
+            </div>
+        </div>
+    </main>
+    <span></span>
+    <footer class="bajada row mt-5 ">
+        <div>
+            <p style="color: #ffffff;">Seguinos:</p>
+            <img src="./imagenes/insta.png" alt="">
+        </div>
+        <nav class="navbar mt-3">
+            <div class="container-fluid bajo">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Email" aria-label="Search">
+                    <button type="button" class="btn btn-outline-danger">Suscribite</button>
+                </form>
+            </div>
+        </nav>
+        <hr class="mt-5">
+        <div>
+            <p style="color: #878787">2022 Cineojo. Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <!-- Ultima linea de JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
