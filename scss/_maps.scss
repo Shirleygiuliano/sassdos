@@ -1,8 +1,0 @@
-$maplink:(estrenos:white,noticias:red,novedades:black,recomendados:green);
-
-@each $link, $color in $maplink {
-    .#{$link}{
-        color:$color;
-    }
-    
-}

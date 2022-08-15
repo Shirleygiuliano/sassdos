@@ -1,12 +1,9 @@
 @import "variable";
-@import "maps";
-@import "mixin";
-@import "extend";
 
 /* color para el fondo */
 
 body, .padre1 {
-    background-color: #212121;
+    background-color: #52525296;
   }
   
   .ancla {
@@ -54,7 +51,17 @@ body, .padre1 {
   .fotito:hover, text-center, img-fluid {
     transition: all 0, 5s;
   }
-  
+    /* Letras*/
+  p, h3, h2 {
+    display: flex;
+    justify-content: center;
+    color: $color-letras;
+  }
+  h3 {
+    font-size:large;
+    font-weight: bold;
+  }
+
   /* Tarjetas*/
   
   .tarjetas {
@@ -66,21 +73,21 @@ body, .padre1 {
   
   .barbie, .buss, .stranger, .thor, .black, .marvel {
     background: linear-gradient( $color-masusado, #212121);
-    height: 280px;
+    height: 420px;
     width: 265px;
-    border-radius: 20px;
+    border-radius: 30px;
   }
   
-  /*segundas tarjetas*/
-  
-  h2 {
-    color: white;
-  }
-  
-  /* caja de footer*/
+  /*segundas tarjetas*//* caja de footer*/
   
   footer {
     background-color: #3C2323;
+  }
+  iframe {
+    display:flex;
+    justify-content: space-between;
+    height: 1800px;
+    width: 1000px;
   }
   
   /* subcripcion */
@@ -155,21 +162,8 @@ body, .padre1 {
   
   /* TARJETAS DE ESTRENOS*/
   
-  .minio, .only, .anillo, .thorr, .lista, .strange {
-    background: linear-gradient( $color-masusado, #212121);
-    height: 280px;
-    width: 365px;
-    border-radius: 20px;
-  }
-  
-  .superior {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  
   iframe {
-    width: 98%;
+    display: flex;
     justify-content: center;
   }
   
@@ -182,10 +176,13 @@ body, .padre1 {
     border-radius: 20px;
   }
   
-  .superior {
+  .port {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 10px;
+    width: 50px;
+    size: 40px;
   }
   
   /* TARJETAS DE NOTICIAS*/

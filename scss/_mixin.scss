@@ -1,9 +1,0 @@
-@mixin text-center ($size,$alineacion) {
-    font-size:$size;
-    text-align:$alineacion;
-    
-}
-
-.text-center{
-    @include text-center(20px, right )
-}
